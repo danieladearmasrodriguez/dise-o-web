@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.fondopagina {
+	background-color: #fa9ae739;
+}
+
+.encabezado, .menudecontenido  {
+	background-color:rgb(255, 255, 255);
+	width: 80%;
+	max-width: 1000;
+	padding: 10px;
+	margin: 20px auto;
+	}
+
+.encabezado {
+	background-color: #BFECFF;
+	border-color: #9addfa;
+	border-radius: 4px;
+	border-style: double;
+}
+
+#logotexto {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
+
+}
+
+
+#TITULOPRINCIPAL{
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+
+	
+}
+
+
+.E {
+	padding-right: 20px;
+	color: rgb(224, 178, 63);
+	font-family: 'Times New Roman', Times, serif;
+	font-weight:lighter
+}
+
+ .PRO {
+	color: #F0A8D0;
+	font-family: monotype corsiva;
+	font-weight: 500;
+	font-style: italic;
+
+ }
+ .MENUDEOPCIONES{
+	background-color: #BFECFF;
+	overflow: hidden;
+ }
+ #opcion{
+	background-color:#BFECFF;
+	list-style: none;
+	float:right;
+
+ }
+ #enlaces{
+	padding: 5px 20px ;
+	display:block;
+	border: #72b3ce;
+	border-radius: 3px;
+	border-style: double;
+	color: #fcc88d;
+	font-style: italic;
+	font-weight: 700;
+	font-size: large;
+	text-decoration:none
+ }
+
+ #opcion:hover {
+	background-color: #89d6f7;
+	transition: background-color .3s;
+	cursor: pointer;
+	
+	
+ }
